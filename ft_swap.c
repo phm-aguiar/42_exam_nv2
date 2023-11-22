@@ -3,18 +3,33 @@
 /*                                                        :::      ::::::::   */
 /*   ft_swap.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
+<<<<<<< HEAD
 /*   By: phenriq2 <phenriq2@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/16 13:18:25 by phenriq2          #+#    #+#             */
 /*   Updated: 2023/11/22 16:21:07 by phenriq2         ###   ########.fr       */
+=======
+/*   By: phenriq2 <phenriq2@student.42sp.org.br>    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/11/18 10:11:28 by phenriq2          #+#    #+#             */
+/*   Updated: 2023/11/18 10:14:55 by phenriq2         ###   ########.fr       */
+>>>>>>> d006a0bed29222e235b9a9c73d25396864a1d2ea
 /*                                                                            */
 /* ************************************************************************** */
 
 void	ft_swap(int *a, int *b)
 {
+<<<<<<< HEAD
 	int	aux;
 
 	aux = *a;
 	*a = *b;
 	*b = aux;
+=======
+	int	temp;
+
+	temp = *a;
+	*a = *b;
+	*b = temp;
+>>>>>>> d006a0bed29222e235b9a9c73d25396864a1d2ea
 }
